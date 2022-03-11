@@ -13,7 +13,10 @@
     </div>
     <div class="container mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-y-8 lg:gap-y-0 justify-items-center mt-16">
         <div v-for="(menu, index) in menusehat" :key="index" class="text-center lg:w-[230px] xl:w-[287px]">
+            <div class="relative">
             <img :src="menu.img" alt="">
+            <img src="/asset/plays.png" class="absolute top-0 left-0 w-full opacity-0 hover:opacity-100 transition-all duration-300 cursor-pointer" alt="">
+            </div>
             <p class="font-medium text-xl text-[#272042] my-3" v-text="menu.nama"></p>
             <p class="font-normal text-[#8B8BA5] mb-3" v-text="menu.chef"></p>
             <img :src="menu.star" alt="" class="mx-auto">

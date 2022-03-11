@@ -7,7 +7,7 @@
           <p class="mr-8">Chef</p>
           <p class="mr-8">Ingredient</p>
           <p class="mr-12">Stories</p>
-          <button class="bg-[#FBE0DC] font-medium text-lg text-[#272042] py-3 px-7 rounded-t-3xl rounded-b-xl">My Kitchen</button>
+          <button class="bg-[#FBE0DC] hover:bg-[#fbe0dcb4] font-medium text-lg text-[#272042] py-3 px-7 rounded-t-3xl rounded-b-xl transition-all">My Kitchen</button>
       </div>
   </nav>
 </template>

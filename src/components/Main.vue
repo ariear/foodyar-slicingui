@@ -6,7 +6,7 @@
               What You Cook With Us, <span class="relative"><span class="absolute w-[110%] border-4 border-[#FBE0DC] rounded-xl bottom-3 left-0 z-10"></span><span class="relative z-20">Together</span></span>
            </p>
           <p class="font-normal text-base md:text-xl text-[#8B8BA5] mt-5 mb-12">When you eat something that cooked by yourself, the happiness is priceless.</p>
-          <button class="bg-[#F7C531] font-medium text-lg text-[#272042] py-3 px-10 rounded-t-3xl rounded-b-xl">Decide a Menu</button>
+          <button class="bg-[#F7C531] hover:bg-[#ffda6d] font-medium text-lg text-[#272042] py-3 px-10 rounded-t-3xl rounded-b-xl transition-all">Decide a Menu</button>
       </div>
       <img src="/asset/video.png" class="hidden lg:block lg:w-[426px] xl:w-[626px]" alt="">
   </div>
